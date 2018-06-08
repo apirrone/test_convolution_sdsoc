@@ -1,0 +1,12 @@
+* Convolution naïve 
+- Aucune optimisation 
+- run sur soft et hard (on s'attend à un poil plus de perfs sur hard)
+
+* Convolution optimisée 
+- différents niveaux d'optimisation -> comparer soft et hard à chaque fois
+
+
+
+* Essayer 
+- différences entre horizontale et verticale séparé?
+- Importance asserts ? (**These assertions let HLS know the upper bounds of loops**)
